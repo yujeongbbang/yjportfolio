@@ -1,0 +1,75 @@
+.section {
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .centered-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-section {
+    margin: 40px;
+  }
+  
+  .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .about-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  .about-content {
+    font-size: 18px;
+  }
+  
+  .icon {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  
+  .profile-icon {
+    background-image: url('../icons/usericon.png');
+  }
+  
+  .birth-icon {
+    background-image: url('../icons/calendaricon.png');
+  }
+  
+  .phone-icon {
+    background-image: url('../icons/phoneicon.png');
+  }
+  
+  .address-icon {
+    background-image: url('../icons/markericon.png');
+  }
+  
+  .email-icon {
+    background-image: url('../icons/mailicon.png');
+  }
+  
+  .github-icon {
+    background-image: url('../icons/commenticon.png');
+  }
+  

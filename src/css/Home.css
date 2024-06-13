@@ -1,7 +1,5 @@
-/* Home 페이지의 스타일 */
-
 .home-section {
-    /* background-image: url('../assets/hb9.jpg'); */
+    /* background-image: url('../assets/hb12.jpg'); */
     background-size: cover; 
     background-position: center; 
     /* color: white;  */
@@ -18,7 +16,6 @@
     text-align: left; 
   }
   
-
   .home-main-content {
     display: inline-block;
     margin: 40px;
