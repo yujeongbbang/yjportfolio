@@ -1,9 +1,6 @@
 .home-section {
-    /* background-image: url('../assets/hb12.jpg'); */
     background-size: cover; 
     background-position: center; 
-    /* color: white;  */
-    /* height: 60vh; */
   }
   
   .home-content {

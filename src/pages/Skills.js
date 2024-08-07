@@ -13,6 +13,8 @@ const Skills = () => (
           <span>HTML/CSS</span>
           <span>JavaScript</span>
           <span>React.js</span>
+          <span>Next.js</span>
+          <span>TypeScript</span>
         </div>
       </div>
       <div className="skills-category">
@@ -47,6 +49,7 @@ const Skills = () => (
           <span>VS Code</span>
           <span>Jupyter Notebook</span>
           <span>Google Colab</span>
+          <span>Vercel</span>
         </div>
       </div>
     </div>
