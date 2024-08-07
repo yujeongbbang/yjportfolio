@@ -5,7 +5,7 @@ import { Element } from 'react-scroll';
 import '../css/Home.css';
 
 const Home = () => (
-  <Element name="introduce" className="home-section">
+  <Element name="home" className="home-section">
     <div className="home-content">
       <div className="home-main-content">
         <h1 className="home-main-title">사용자 중심의 개발자, 서유정입니다</h1>
