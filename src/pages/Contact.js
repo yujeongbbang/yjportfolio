@@ -5,6 +5,7 @@ import '../css/Contact.css';
 
 const Contact = () => (
   <Element name="contact" className="section">
+    <div className='contact-container'>
   <h1 className="contact-title">Contact</h1>
   <div className="centered-content">
     <div className="about-section">
@@ -31,6 +32,7 @@ const Contact = () => (
         </div>
       </div>
     </div>
+  </div>
   </div>
 </Element>
 );

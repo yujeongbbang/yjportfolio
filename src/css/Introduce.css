@@ -3,6 +3,12 @@
     text-align: center;
   }
   
+  .introduce-title {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
   .introduce-content {
     max-width: 800px;
     margin: 0 auto;
