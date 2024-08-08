@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import { Element } from 'react-scroll';
-
 import '../css/Home.css';
 
 const Home = () => (
@@ -22,7 +21,6 @@ const Home = () => (
       </div>
     </div>
   </Element>
-
 );
 
 export default Home;

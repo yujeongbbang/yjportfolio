@@ -4,9 +4,10 @@ import '../css/Main.css';
 import '../css/Project.css'; 
 
 // 프로젝트 이미지
-import ProjectImage1 from '../assets/kekeke.png';
-import ProjectImage2 from '../assets/puppiet.png';
-import ProjectImage3 from '../assets/portfolio.png';
+import ProjectImage1 from '../assets/beanpole.png';
+import ProjectImage2 from '../assets/kekeke.png';
+import ProjectImage3 from '../assets/puppiet.png';
+import ProjectImage4 from '../assets/portfolio.png';
 
 
 const projects = [
@@ -21,7 +22,7 @@ const projects = [
   },
   {
     id: 2,
-    image: ProjectImage1,
+    image: ProjectImage2,
     title: 'KEKEKE',
     type: '팀 프로젝트 (5명)',
     skills: 'React, HTML/CSS/JS, Node.js, Flask, MySQL, Firebase, Python, KakaoMap Api, Socket API, Konva API, Github, Notion, Figma',
@@ -30,7 +31,7 @@ const projects = [
   },
   {
     id: 3,
-    image: ProjectImage2,
+    image: ProjectImage3,
     title: 'PUPPIET',
     type: '팀 프로젝트 (5명)',
     skills: 'HTML/CSS, JavaScript, Firebase, Github',
@@ -39,7 +40,7 @@ const projects = [
   },
   {
     id: 4,
-    image: ProjectImage3,
+    image: ProjectImage4,
     title: 'Portfolio',
     type: '개인 프로젝트',
     skills: 'HTML/CSS, React, Github',
