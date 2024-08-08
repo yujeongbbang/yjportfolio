@@ -69,3 +69,12 @@ nav ul li a:hover {
   src: url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
   src: url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//fastly.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
 }
+
+@media (max-width: 768px) {
+  body {
+    transform: scale(0.8); /* 80%로 축소 */
+    transform-origin: top left; /* 축소 기준점을 왼쪽 상단으로 설정 */
+    width: 125%; /* 축소된 콘텐츠를 볼 수 있도록 너비 조정 */
+    overflow-x: hidden; /* 수평 스크롤 제거 */
+  }
+}
