@@ -8,7 +8,7 @@ import ProjectImage1 from '../assets/beanpole.png';
 import ProjectImage2 from '../assets/kekeke.png';
 import ProjectImage3 from '../assets/puppiet.png';
 import ProjectImage4 from '../assets/portfolio.png';
-
+import ProjectImage5 from '../assets/mistybot.png';
 
 const projects = [
    {
@@ -46,6 +46,15 @@ const projects = [
     skills: 'HTML/CSS, React, Github',
     description: 'React 기반 포트폴리오 사이트',
     githubLink: 'https://github.com/yujeongbbang/yjportfolio',
+  },
+  {
+    id: 5,
+    image: ProjectImage5,
+    title: 'MistyBot',
+    type: '팀 프로젝트',
+    skills: 'Android Studio, Kotlin, Ubuntu, Raspberry Pi, Arduino, Python, Networking, Firebase, GitHub, Notion, Figma',
+    description: '이동형 자동 가습기 어플',
+    githubLink: 'https://github.com/yujeongbbang/MistyBot',
   },
 ];
 
