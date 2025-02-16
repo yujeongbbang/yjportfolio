@@ -19,7 +19,7 @@ const projects = [
     skills: 'Next.js, TypeScript, Github, Vercel',
     description: '빈폴 웹사이트: 원 페이지 스크롤 구현 및 렌더링',
     githubLink: 'https://github.com/yujeongbbang/beanpole_web',
-    readmeFile: 'beanpole.md',  // README 파일 경로 (public/readmes/beanpole.md)
+    readmeFile: 'beanpole.md', 
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const projects = [
     skills: 'React, HTML/CSS, JavaScript, Node.js, Flask, MySQL, Firebase, Python, KakaoMap Api, Socket API, Konva API, Github, Notion, Figma',
     description: `AI 추천 및 드로잉 기술을 활용한 주문 제작 케이크 플랫폼`,
     githubLink: 'https://github.com/yujeongbbang/kekeke',
-    readmeFile: 'kekeke.md',  // README 파일 경로
+    readmeFile: 'kekeke.md', 
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const projects = [
     skills: 'Android Studio, Kotlin, Ubuntu, Raspberry Pi, Arduino, Python, Firebase, GitHub, Notion, Figma',
     description: '이동형 자동 가습기 어플리케이션',
     githubLink: 'https://github.com/yujeongbbang/MistyBot',
-    readmeFile: 'mistybot.md',  // README 파일 경로
+    readmeFile: 'mistybot.md', 
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const projects = [
     skills: 'HTML/CSS, JavaScript, Firebase, Github',
     description: '반려견 다이어트를 위한 웹페이지\n견종과 BMI 수치에 따른 사료 추천 및 일일 사료량 계산',
     githubLink: 'https://github.com/yujeongbbang/puppietTT',
-    readmeFile: 'puppiet.md',  // README 파일 경로
+    readmeFile: 'puppiet.md',
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const projects = [
     skills: 'HTML/CSS, javascript, React, Github',
     description: 'React 기반 포트폴리오 사이트',
     githubLink: 'https://github.com/yujeongbbang/yjportfolio',
-    readmeFile: 'portfolio.md',  // README 파일 경로
+    readmeFile: 'portfolio.md', 
   },
 ];
 
@@ -75,17 +75,17 @@ const Projects = () => {
       }
       const text = await response.text();
       setReadmeContent(text);
-      setIsModalOpen(true); // 모달 열기
+      setIsModalOpen(true); 
     } catch (error) {
       console.error('Error loading README:', error);
       setReadmeContent('Error loading the README file.');
-      setIsModalOpen(true); // 에러 발생 시에도 모달 열기
+      setIsModalOpen(true); 
     }
   };
 
   const closeModal = () => {
-    setIsModalOpen(false); // 모달 닫기
-    setReadmeContent(''); // 내용 초기화
+    setIsModalOpen(false); 
+    setReadmeContent(''); 
   };
 
   return (
@@ -93,7 +93,11 @@ const Projects = () => {
       <h1>Projects</h1>
       <div className="projects-container">
         {projects.map((project) => (
-          <div key={project.id} className="project-card">
+          <div 
+            key={project.id} 
+            className="project-card" 
+            onClick={() => fetchReadme(project.readmeFile)} // 카드 클릭 시 모달 열기
+          >
             <img src={project.image} alt={project.title} className="project-image" />
             <div className="project-text">
               <h2 className="project-title">{project.title}</h2>
@@ -108,7 +112,6 @@ const Projects = () => {
               <a href={project.githubLink} className="project-github-link" target="_blank" rel="noopener noreferrer">
                 View on GitHub
               </a>
-              <button onClick={() => fetchReadme(project.readmeFile)}>Read More</button>
             </div>
           </div>
         ))}

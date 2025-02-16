@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
+  gap: 40px;
   margin-top: 50px;
 }
 
@@ -69,6 +69,16 @@
 
 .project-github-link:hover {
   text-decoration: underline;
+}
+
+.project-card {
+  cursor: pointer; /* 클릭 가능하도록 변경 */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05); /* 마우스 올리면 살짝 확대 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* 반응형 (화면 작아질 때 2개 → 1개) */
