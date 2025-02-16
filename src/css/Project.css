@@ -7,13 +7,12 @@
   text-align: center;
 }
 
-
 .projects-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
-  margin-top: 100px;
+  gap: 20px;
+  margin-top: 50px;
 }
 
 .project-card {
@@ -21,54 +20,66 @@
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 600px;
-  margin: 20px;
+  width: calc(33.33% - 40px); /* 3개씩 배치 */
+  max-width: 400px;
+  margin: 0px;
 }
 
 .project-image {
   width: 100%;
-  height: 400px;
+  height: 300px;
   object-fit: cover;
 }
 
-.project-text{
-  padding: 40px;
+.project-text {
+  padding: 20px;
 }
 
 .project-title {
-  font-size: 30px;
+  font-size: 24px;
   color: #007bff;
-  margin: 10px;
+  margin-bottom: 10px;
+}
+
+.project-type {
+  font-size: 16px;
+  color: #333;
 }
 
 .project-skills {
-  font-size: 16px;
+  font-size: 14px;
   color: #333;
-  margin: 20px;
-  margin-bottom: 30px;
+  margin: 10px 0;
 }
 
 .project-description {
-  font-size: 18px;
+  font-size: 16px;
   color: #333;
-  margin-top: 30px
+  margin-top: 10px;
 }
-
-.project-type{
-  font-size: 18px;
-  color: #333;
-}
-
 
 .project-github-link {
   display: block;
-  margin-top: 20px;
+  margin: 15px;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   color: #007bff;
   text-decoration: none;
 }
 
 .project-github-link:hover {
   text-decoration: underline;
+}
+
+/* 반응형 (화면 작아질 때 2개 → 1개) */
+@media (max-width: 1024px) {
+  .project-card {
+    width: calc(50% - 40px); /* 2개씩 배치 */
+  }
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: calc(100% - 40px); /* 1개씩 배치 */
+  }
 }
