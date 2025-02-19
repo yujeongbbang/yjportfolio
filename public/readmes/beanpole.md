@@ -1,8 +1,7 @@
 # **BEANPOLE 웹사이트 (Next.js)**
 🔗 **Deployment URL**: [BEANPOLE Website](https://beanpole-website.vercel.app/)
 
-![image](https://github.com/user-attachments/assets/12ad11f0-277e-4634-a90f-ab3821439b30)
-
+![beanpole_home3](https://github.com/user-attachments/assets/7fe2d5ac-a455-4392-996d-3f63b330a481)
 
 ## 📌 **프로젝트 개요**
 이 프로젝트는 Next.js와 TypeScript를 학습하고, 실제 웹사이트 제작 경험을 쌓기 위해 제작되었습니다.  
@@ -40,20 +39,10 @@
 ## 🛠️ **기술 스택**
 
 ### **Frontend**
-- **Next.js**: 서버 사이드 렌더링 및 정적 사이트 생성 지원
-- **TypeScript**: 타입 안전성을 위한 정적 타입 언어
-- **React Icons**: 다양한 아이콘 제공
-- **CSS Modules**: 컴포넌트 기반의 모듈화된 스타일링
+- **Next.js**
+- **TypeScript**
+- **React Icons**
+- **CSS Modules**
 
 ### **Deployment**
-- **Vercel**: 정적 사이트 및 서버리스 함수 배포
-
-## 📁 **폴더 구조**
-
-/pages         # Next.js 라우트 파일들
-
-/components    # 재사용 가능한 UI 컴포넌트 모음
-
-/styles        # CSS Modules 스타일 파일들
-
-/public        # 정적 파일 (이미지, 아이콘 등)
+- **Vercel**
