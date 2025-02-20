@@ -109,9 +109,9 @@ const Projects = () => {
                   <span key={index}>{line}<br/></span>
                 ))}
               </p>
-              <a href={project.githubLink} className="project-github-link" target="_blank" rel="noopener noreferrer">
+              {/* <a href={project.githubLink} className="project-github-link" target="_blank" rel="noopener noreferrer">
                 View on GitHub
-              </a>
+              </a> */}
             </div>
           </div>
         ))}
